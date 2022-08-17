@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap');
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+body{
+
+    background: #3b5998;
+}
+
+.wrapper{
+    max-width: 330px;
+    background: #f1f1f1;
+    margin: 50px auto;
+    border-radius: 10px;
+    padding: 2rem 1rem;
+    text-align: center;
+    box-shadow: 0 20px 35px rgba(0, 0, 0, 0.1);
+}
+
+h1{
+    font-size: 2rem;
+    color:#07001f;
+    margin-bottom: 1.2rem;
+}
+
+form input{
+    width: 92%;
+    outline: none;
+    border: 1px solid #fff;
+    padding: 12px 20px;
+    border-radius: 20px;
+    margin-bottom: 10px;
+    background:#dadadf;
+}
+
+button{
+    font-size: 1rem;
+    margin-top: 1.8rem;
+    border-radius: 20px;
+    padding: 10px 0;
+    outline: none;
+    border: none;
+    width: 90%;
+    color: #fff;
+    background: #3b5998;
+    cursor: pointer;
+}
+
+button:hover{
+    background: #000;
+    color: #fff;
+}
+
+input:focus{
+    border: 1px solid rgb(192, 192, 192);
+}
+
+.terms{
+    margin-top: 0.2rem;
+}
+
+.terms input{
+    width: 1em;
+    height: 1em;
+    vertical-align: middle;
+    cursor: pointer;
+}
+
+.terms label{
+    font-size: 0.7rem;
+}
+
+.terms a{
+    color: #3b5998;
+    text-decoration: none;
+}
+
+.exist{
+    font-size: 0.8rem;
+    margin-top: 1.4rem;
+    color: #3b5998;
+}
+
+.exist a{
+    color: #636363;
+    text-decoration: none;
+}
+
+.forgot{
+    font-size: 0.8rem;
+    margin: 0.3rem 1.4rem 0 0;
+    text-align: center;
+}
+
+.forgot a{
+    color: #636363;
+    text-decoration: none;
+}
